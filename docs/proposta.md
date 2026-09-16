@@ -30,3 +30,20 @@ Acreditamos que estudantes, curiosos e entusiastas iniciantes em segurança ofen
 ### Critério de sucesso do MVP
 
 O MVP será considerado funcional quando um iniciante conseguir iniciar o EasyRecon, informar um alvo válido, escolher e executar as ferramentas de reconhecimento em um ambiente autorizado e compreender os resultados apresentados em português. Entradas inválidas, timeouts e ausência de resposta deverão gerar mensagens claras, sem encerrar o programa inesperadamente.
+
+## 3. Backlog inicial
+
+O backlog inicial do EasyRecon é mantido no [GitHub Project do projeto](https://github.com/users/felipe-dsm/projects/2).
+
+O quadro contém seis histórias de usuário, todas priorizadas e estimadas. As histórias foram distribuídas entre as três sprints de desenvolvimento conforme suas dependências e o valor entregue ao usuário.
+
+## 4. Stack tecnológica e justificativa
+
+| Tecnologia | Uso e justificativa |
+|---|---|
+| Python 3 | Linguagem principal, escolhida pela legibilidade, rapidez de desenvolvimento e suporte a operações de rede. Também permite aproveitar os conhecimentos adquiridos durante o curso de segurança ofensiva |
+| Interface de linha de comando | Mantém o escopo viável e aproxima o produto do ambiente de terminal utilizado em segurança ofensiva |
+| Biblioteca padrão do Python | Será priorizada para validação de endereços, sockets e operações de rede, reduzindo dependências externas |
+| pytest | Permitirá criar testes automatizados para validações, tratamento de erros e componentes de rede simulados |
+| GitHub Actions | Será utilizado para executar testes e verificações automaticamente em pushes e pull requests |
+| Docker | Permitirá executar e testar o EasyRecon em um ambiente reproduzível nas sprints posteriores |

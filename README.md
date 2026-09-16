@@ -33,3 +33,4 @@ As funcionalidades serão desenvolvidas progressivamente durante as próximas sp
 - [Proposta do produto](docs/proposta.md)
 - [Backlog e quadro do projeto](https://github.com/users/felipe-dsm/projects/2)
 - [Registro do uso de inteligência artificial](docs/uso-de-ia.md)
+- [Vídeo de apresentação da Sprint 0](https://youtu.be/aFlgH47uOUk)

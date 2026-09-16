@@ -110,3 +110,17 @@ Como o projeto possui apenas um integrante, os papéis serão acumulados:
 | Pronto | Sem limite |
 
 Quando um limite for atingido, nenhum novo item será iniciado até que o trabalho em andamento avance.
+
+## 6. Equipe
+
+| Nome | Matrícula | Papel |
+|---|---|---|
+| Felipe Dantas de Souza Macedo | 20240011697 | Product Owner, facilitador, desenvolvedor e revisor |
+
+Por ser um projeto individual, os papéis são acumulados pelo único integrante.
+
+## 7. Coorte, quadro e integração
+
+- **Coorte:** B — online.
+- **GitHub Project:** [quadro do EasyRecon](https://github.com/users/felipe-dsm/projects/2).
+- **Integração com outras disciplinas:** não se aplica.

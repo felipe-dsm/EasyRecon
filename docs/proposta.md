@@ -76,6 +76,12 @@ Uma história poderá ser movida para `Pronto` quando:
 - [ ] O uso de inteligência artificial estiver registrado, quando aplicável.
 - [ ] Após a introdução da integração contínua, o pipeline estiver verde.
 
+### Prática XP da Sprint 1
+
+Na Sprint 1, será adotada a prática de refatoração apoiada por testes de caracterização. Primeiro, os testes registrarão o comportamento atual do resolvedor DNS e do fluxo básico do menu. Em seguida, o código será reorganizado para separar a lógica de resolução DNS da interação com o usuário, mantendo o mesmo comportamento externo.
+
+A aplicação da prática será evidenciada pelos testes automatizados executados antes e depois da refatoração, pelos commits separados e pelo pull request da funcionalidade.
+
 ### Papéis
 
 Como o projeto possui apenas um integrante, os papéis serão acumulados:

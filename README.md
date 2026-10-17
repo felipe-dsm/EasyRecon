@@ -28,6 +28,30 @@ Não se aplica.
 
 As funcionalidades serão desenvolvidas progressivamente durante as próximas sprints. O EasyRecon deve ser utilizado somente em redes e sistemas próprios ou devidamente autorizados.
 
+## Funcionalidades disponíveis
+
+Nesta versão, o EasyRecon oferece:
+
+- Resolução DNS direta, convertendo um nome de domínio em endereços IPv4.
+- Resolução DNS reversa, consultando o registro PTR associado a um endereço IPv4.
+- Menu interativo em português.
+- Tratamento de erros quando a consulta não retorna resultados.
+
+## Requisitos
+
+- Python 3
+- Acesso à rede para realizar consultas DNS
+
+O EasyRecon utiliza somente a biblioteca padrão do Python durante sua execução.
+
+## Como executar
+
+Clone o repositório:
+
+```bash
+git clone https://github.com/felipe-dsm/EasyRecon.git
+cd EasyRecon
+```
 ## Documentação
 
 - [Proposta do produto](docs/proposta.md)
